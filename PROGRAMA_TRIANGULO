@@ -13,3 +13,7 @@ def triangulo(a, b, c):
 def tipoTriangulo(a, b, c):
     if triangulo(x, y, z) == False:
         print("Seu Triangulo é impossível.\n")
+    else:
+        if a == b and b == c:
+            print("Seu Triangulo é Equilátero")
+        elif a == b or b == c or a == c:
